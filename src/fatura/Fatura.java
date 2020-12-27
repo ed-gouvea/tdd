@@ -50,6 +50,10 @@ public class Fatura {
 	public Boleto[] getBoletos() {
 		return boletos;
 	}
+
+	public Pagamento[] getPagamentos() {
+		return pagamentos;
+	}
 	
 	public boolean isPaga() {
 		return Paga;
